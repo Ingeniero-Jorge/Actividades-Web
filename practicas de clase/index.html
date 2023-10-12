@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- todo lo configurable de la pagina -->
+       <title> Página web </title>
+       <meta charset="UTF-8">
+       <meta name="Descripcion" content="Esta es una paguina web">
+       <meta name="keywords" content="HTML,CSS,Javascrip">
+       <link rel="Icon" href="icono.jpg" type="image/png" sizes="16x16">
+       <link rel="">
+
+    </head>
+        <body>
+          Hola mundo
+          <a href="#SeccionParafo">ir a seccion de parrafos</a>
+          <h1> Hola Perro</h1>
+          <h2> Hola Perro</h2>
+          <h3> Hola Perro</h3>
+          <h4> Hola Perro</h4>
+          <h5> Hola Perro</h5>
+          <h6> Hola Perro</h6>
+          <h3 id = "SeccionParafo">Parrafos</h3>
+          <hr>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> Qui dolorem, perspiciatis quas iste accusantium, nesciunt, exercitationem architecto vel ratione deleniti delectus doloribus aspernatur sunt animi voluptas. <br>Reprehenderit rerum vitae saepe.</p>
+          <hr color="black" size="5px" width="60%">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>Qui dolorem, perspiciatis quas iste accusantium, nesciunt, exercitationem architecto vel ratione deleniti delectus doloribus aspernatur sunt animi voluptas. <br>Reprehenderit rerum vitae saepe.</p>
+          <hr color="black" size="5px" width="60%">
+          <hr>
+          <h3>Formato de texto</h3>
+          <hr>
+          <p><b>Texto en negritas</b></p>
+          <p><i>Texto en cursiva</i></p>
+          <p><del>Texto tachado</del></p>
+          <p><em>Texto enfasis</em></p>
+          <p><small>Texto pequeño</small></p>
+          <p><mark>Texto subrayado</mark></p>
+
+          <a href="https://github.com/Ingeniero-Jorge/Programaci-n-web" target="_blank"> Enlace  repositorios</a>
+          <hr>
+
+          <h3> ENLACES </h3>
+
+          <a href="https://es.wikipedia.org/wiki/Informaci%C3%B3n" target="_blank"> Repositorio del codigo fuente</a><br>
+          <a href="https://es.wikipedia.org/wiki/Informaci%C3%B3n" target="_parent">Repositorio del codigo fuente</a><br>
+          <a href="https://es.wikipedia.org/wiki/Informaci%C3%B3n" target="_self">Repositorio del codigo fuente</a><br>
+
+          <a href="icono.jpg">Descargar imajen</a>
+          <hr>
+          <h3>LISTAS</h3>
+
+          <ol type="A">
+            <li>ELEMENTO</li>
+            <li>ELEMENTO</li>
+              <ul type="a">
+                <li>ELEMENTO 2</li>
+                <li>ELEMENTO 2</li>
+              </ul>
+            <li>ELEMENTO</li>
+            <li>ELEMENTO</li>
+            <li>ELEMENTO</li>
+          </ol>
+
+          <ul>
+            <li>ELEMENTO</li>
+            <li>ELEMENTO</li>
+            <li>ELEMENTO</li>
+            <li>ELEMENTO</li>
+            <li>ELEMENTO</li>
+          </ul>
+
+          <dl>
+            <dt>nombre</dt>
+            <dd>jorge</dd>
+            <dt>nombre</dt>
+            <dd>chang romero</dd>
+            <dt>Ocupacion</dt>
+            <dd>ingeniero en sofware</dd>
+
+          </dl>
+          <hr> 
+
+          <h3>IMAGENES</h3>
+          
+          <img src="icono.jpg" width="400" height="310" alt="HTML"> <img src="https://media.tenor.com/BIsopElQpK0AAAAC/little-nightmares-six.gif" width="550" alt="">
+
+          <br>
+          <!-- <img src="https://media.tenor.com/BIsopElQpK0AAAAC/little-nightmares-six.gif" width="550" alt=""> -->
+          <div style="text-align: center;">
+            <a href="https://es.bandainamcoent.eu/little-nightmares/little-nightmares" target="_blank">
+              <img src="https://media.tenor.com/BIsopElQpK0AAAAC/little-nightmares-six.gif" width="550" alt="little nightmare">
+            </a>
+          </div>
+
+          
+
+          <hr color="black" size="5px" width="60%">
+
+          <div style="text-align: center;">
+            <video src="Slaughterhouse with RTX! (Full Detail).mp4" width="700" controls>Slaughterhouse</video><br>
+            <audio src="MemoryReboot.mp3" width="500" controls></audio>
+          </div>
+
+          <hr color="black" size="5px" width="60%">
+          
+          <hr>
+
+          <h3>TABLAS</h3>
+           <div style="text-align: center;">
+             <table border="1">
+             <thead>
+               <tr>
+                 <th colspan="8">Horario de clases</th>
+               </tr>
+               <tr>
+                 <th>Asignatura</th>
+                 <th>lunes</th>
+                 <th>martes</th>
+                 <th>miescoles</th>
+                 <th>jueves</th>
+                 <th>viernes</th>
+                 <th>sabado</th>
+                 <th>domingo</th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                 <td>Programacion web</td>
+               </tr>
+             </tbody>
+            
+            
+
+              </table>
+           </div>  
+          
+
+          <hr>
+          <h3>FORMULARIO</h3>
+
+          <form action="action.php">
+            <LAbel for="Nombre">Nombre</LAbel>
+            <input type="text" name="Nombre" id="Nombre" placeholder="Escribe tu nombre aqui" required><br>
+            <label for="Email">Email</label>
+            <input type="email" name="Email" id="Email" placeholder="Escribe tu correo">
+            <label for="Pass">Password</label>
+            <input type="password" name="Password" placeholder="Password">
+            <hr>
+            <label for="Fecha"> Fecha de nacimiento</label>
+            <input type="date" name="Fecha" id="Fecha" placeholder="pon tu fecha de nacimiento"><br>
+            <label for="number">Edad:</label>
+            <input type="number" name="number" id="number" min="0" max="19"><br>
+            <label for="url">Redes sociales</label>
+            <input type="url" name="url" id="url"><br>
+            <label for="color">Elige tu color</label>
+            <input type="color" name="color" id="color"><br>
+            <input type="submit" value="Enviar">
+            <label for="tiempo">Escribe la hora</label>
+            <input type="time" name="tiempo" id="tiempo"><br>
+            <label for="FORMULARIO">sube un archivo</label>
+            <input type="file" name="FORMULARIO" id="FORMULARIO"><br>
+            <input type="reset" values="borra">
+
+
+          </form>
+
+         
+
+
+        </body>
+</html>
